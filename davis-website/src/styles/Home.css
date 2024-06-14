@@ -1,0 +1,67 @@
+/* Landing */
+
+.Landing {
+  background-image:url("../assets/landing_bg.png");
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position:bottom;
+  height: 100vh;
+}
+
+.TitleWrapper {
+  position:relative;
+  padding-top:10%;
+}
+
+.Title {
+  font-size: 80px;
+  text-align: center;
+  color: white;
+}
+
+.typewriter {
+  display:flexbox;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  border-right: .05em solid white; /* The typwriter cursor */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(50, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.Links {
+  display:flex;
+  margin: auto;
+  text-align:center;
+}
+
+.title-link {
+  font-weight:100;
+  font-size:30px;
+  color:white;
+  display:inline-block;
+  margin: 0px 10px;
+}
+
+.title-link:hover {
+  text-decoration:underline;
+}
+
+.title-link:active {
+  text-decoration:underline;
+  /* background-color:white; */
+  color:#2B2342;
+}
