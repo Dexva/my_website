@@ -7,17 +7,17 @@
 /* General Stuff */
   
 .center-block {
-display:inline-block;
-white-space:nowrap;
+    display:inline-block;
+    white-space:nowrap;
 }
 
 .center-flex {
-display:inline-flex;
-white-space:nowrap;
-align-items:center;
-align-content: center;
-margin: auto;
-height:100%;
+    display:inline-flex;
+    white-space:nowrap;
+    align-items:center;
+    align-content: center;
+    margin: auto;
+    height:100%;
 }
 
 .padding-sides {
@@ -56,6 +56,10 @@ max-height:100%;
 .Section {
     margin: 0% 10% 0% 10%;
     height: 50vh;
+}
+
+.Section-Break {
+    line-height: 200%;
 }
 
 .unselectable {

@@ -10,10 +10,9 @@ function AboutMe() {
         <div className="LeftAbout">
           <h1 className="headline">Hello!</h1>
           <h1 className="headline">I'm Davis :)</h1>
-          <h3 className="headline-description half-screen">I’m a STEM-enthusiast who does <br />science, code, and photography. <br />
-          Welcome to my website!</h3>
+          <h3 className="headline-description HalfDiv">I love to do science, code stuff, and take photos. Welcome to my site!</h3>
         </div>
-        <div className="RightAbout half-screen">
+        <div className="RightAbout HalfDiv">
           <img src={MyPhoto} alt="This is me!" className="image"/>
         </div>
       </div>

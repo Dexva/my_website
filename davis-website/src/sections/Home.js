@@ -29,10 +29,10 @@ function Home() {
 
       <div className="Landing">
         <div className="TitleWrapper">
-          <h1 className="Title typewriter">davis_magpantay</h1>
+          <h1 className="Title">davis_<br className="nobreak"/>magpantay.</h1>
         </div>
         <div className="Links">
-          <div className="center-flex">
+          <div className="LinksWrapper">
             <div onClick={() => scrollToSection(science)} className="title-link unselectable">science.</div>
             <div onClick={() => scrollToSection(code)} className="title-link unselectable">code.</div>
             <div onClick={() => scrollToSection(photography)} className="title-link unselectable">photography.</div>
@@ -42,11 +42,11 @@ function Home() {
         </div>
       </div>
 
-      <div ref={about}>
-        <AboutMe />
-      </div>
+        <div ref={about}>
+          <AboutMe />
+        </div>
 
-      <br />
+      <br className="Section-Break"/>
 
       <div ref={science}>
         <Science />

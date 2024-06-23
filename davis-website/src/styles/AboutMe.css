@@ -2,15 +2,44 @@
 /* About Me */
 
 .AboutMe {
-    display:flex;
+    display:block;
     justify-content: center;
+    height:100%;
 }
 
 .LeftAbout {
     align-self:center;
     left:100%;
+    width: 100%;
 }
 
 .RightAbout {
     right:100%;
+}
+
+.HalfDiv {
+    width: 100%;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    .AboutMe {
+        display:flex;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .LeftAbout {
+        align-self:center;
+        left:100%;
+        width: 35vw;
+    }
+    
+    .RightAbout {
+        right:100%;
+    }
+
+    .HalfDiv {
+        width: 35vw;
+    }
 }
